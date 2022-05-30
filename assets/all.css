@@ -5319,7 +5319,7 @@ fieldset:disabled .btn {
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url("/assets/images/icon_minus.svg");
+  background-image: url("./images/icon_minus.svg");
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
 }
@@ -5331,7 +5331,7 @@ fieldset:disabled .btn {
   height: 1.25rem;
   margin-left: auto;
   content: "";
-  background-image: url("/assets/images/icon_plus.svg");
+  background-image: url("./images/icon_plus.svg");
   background-repeat: no-repeat;
   background-size: 1.25rem;
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
