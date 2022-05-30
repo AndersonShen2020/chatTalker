@@ -12244,7 +12244,7 @@ header h1 .logo img, header .h1 .logo img {
 .hint {
   margin-top: 100px;
   background-position: top center;
-  background-image: url("/assets/images/footer_sm.svg");
+  background-image: url("./images/footer_sm.svg");
   height: 461px;
   width: 100%;
   background-size: 100%;
@@ -12263,7 +12263,7 @@ header h1 .logo img, header .h1 .logo img {
 
 @media (min-width: 992px) {
   .hint {
-    background-image: url("/assets/images/home_footer.svg");
+    background-image: url("./images/home_footer.svg");
     height: 550px;
   }
 }
@@ -12373,7 +12373,7 @@ header h1 .logo img, header .h1 .logo img {
 }
 
 .price-bg-img {
-  background-image: url(/assets/images/banner_sm.svg);
+  background-image: url("./images/banner_sm.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -12386,7 +12386,7 @@ header h1 .logo img, header .h1 .logo img {
 
 @media (min-width: 992px) {
   .price-bg-img {
-    background-image: url(/assets/images/banner.svg);
+    background-image: url("./images/banner.svg");
     width: 885px;
     height: 546px;
     top: 0;
@@ -12413,7 +12413,7 @@ header h1 .logo img, header .h1 .logo img {
 }
 
 .price-bg-ellipse {
-  background-image: url(/assets/images/ball03.svg);
+  background-image: url("./images/ball03.svg");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -12532,7 +12532,7 @@ header h1 .logo img, header .h1 .logo img {
 
 .price-plan-list li {
   margin-top: 16px;
-  list-style-image: url("/assets/images/icon_check.svg");
+  list-style-image: url("./images/icon_check.svg");
 }
 
 .price-qa {

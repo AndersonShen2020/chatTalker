@@ -1,7 +1,7 @@
 .price {
   &-bg {
     &-img {
-      background-image: url(/assets/images/banner_sm.svg);
+      background-image: url("./images/banner_sm.svg");
       background-repeat: no-repeat;
       background-size: 100%;
       width: 100%;
@@ -11,7 +11,7 @@
       right: 0;
       z-index: -1;
       @media (min-width: 992px) {
-        background-image: url(/assets/images/banner.svg);
+        background-image: url("./images/banner.svg");
         width: 885px;
         height: 546px;
         top: 0;
@@ -33,7 +33,7 @@
       }
     }
     &-ellipse {
-      background-image: url(/assets/images/ball03.svg);
+      background-image: url("./images/ball03.svg");
       background-repeat: no-repeat;
       background-size: cover;
       position: absolute;
@@ -123,7 +123,7 @@
       margin: 32px 0;
       li {
         margin-top: 16px;
-        list-style-image: url("/assets/images/icon_check.svg");
+        list-style-image: url("./images/icon_check.svg");
       }
     }
   }

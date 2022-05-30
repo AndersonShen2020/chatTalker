@@ -1,7 +1,7 @@
 .hint {
   margin-top: 100px;
   background-position: top center;
-  background-image: url("/assets/images/footer_sm.svg");
+  background-image: url("./images/footer_sm.svg");
   height: 461px;
   width: 100%;
   background-size: 100%;
@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: end;
   @media (min-width: 992px) {
-    background-image: url("/assets/images/home_footer.svg");
+    background-image: url("./images/home_footer.svg");
     height: 550px;
   }
   &-container {
