@@ -1,0 +1,19 @@
+header {
+  background-color: transparent;
+  h1 {
+    height: 47px;
+    margin-bottom: 0;
+    .logo {
+      width: auto;
+      height: 100%;
+      img {
+        height: 100%;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+.btn-header {
+  padding: 8px 32px;
+}

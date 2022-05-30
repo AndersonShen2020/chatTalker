@@ -1,0 +1,32 @@
+.hint {
+  margin-top: 100px;
+  background-position: top center;
+  background-image: url("/assets/images/footer_sm.svg");
+  height: 461px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  @media (min-width: 992px) {
+    background-image: url("/assets/images/home_footer.svg");
+    height: 550px;
+  }
+  &-container {
+    p {
+      font: normal normal bold 24px/35px "Noto Sans TC";
+      margin-bottom: 48px;
+      @media (min-width: 992px) {
+        font: normal normal bold 32px/46px "Noto Sans TC";
+        margin-bottom: 24px;
+      }
+    }
+    a {
+      margin-bottom: 60px;
+      @media (min-width: 992px) {
+        margin-bottom: 100px;
+      }
+    }
+  }
+}

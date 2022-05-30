@@ -1,0 +1,29 @@
+.banner {
+  margin-top: 30px;
+}
+
+.banner-title {
+  font: normal normal bold 16px/24px "Noto Sans TC";
+  @media (min-width: 992px) {
+    font: normal normal bold 18px/26px "Noto Sans TC";
+  }
+}
+
+.banner-main {
+  font: normal normal bold 32px/46px "Noto Sans TC";
+  @media (min-width: 992px) {
+    font: normal normal bold 48px/70px "Noto Sans TC";
+  }
+}
+
+.banner-content {
+  font: normal normal normal 16px/24px "Noto Sans TC";
+  line-height: 29px;
+  @media (min-width: 992px) {
+    font: normal normal normal 20px/29px "Noto Sans TC";
+  }
+}
+
+.banner-img {
+  max-width: 532px;
+}

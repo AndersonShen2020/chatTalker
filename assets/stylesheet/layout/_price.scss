@@ -1,0 +1,146 @@
+.price {
+  &-bg {
+    &-img {
+      background-image: url(/assets/images/banner_sm.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 82px;
+      right: 0;
+      z-index: -1;
+      @media (min-width: 992px) {
+        background-image: url(/assets/images/banner.svg);
+        width: 885px;
+        height: 546px;
+        top: 0;
+      }
+    }
+    &-gray {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #f7f9fd 0% 0% no-repeat padding-box;
+      width: 100%;
+      height: 630px;
+      border-radius: 0px 0px 0px 150px;
+      z-index: -2;
+      @media (min-width: 992px) {
+        width: 100%;
+        height: 470px;
+        border-radius: 0px 0px 0px 300px;
+      }
+    }
+    &-ellipse {
+      background-image: url(/assets/images/ball03.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 1350px;
+      left: -123px;
+      width: 204px;
+      height: 204px;
+      @media (min-width: 992px) {
+        top: 876px;
+        left: -267px;
+        width: 361px;
+        height: 361px;
+      }
+    }
+  }
+  &-banner {
+    padding: 0;
+    @media (min-width: 992px) {
+      padding: 92px 0;
+    }
+    h2 {
+      padding-top: 48px;
+      font: normal normal bold 32px/46px "Noto Sans TC";
+      @media (min-width: 992px) {
+        padding-top: 0;
+        font: normal normal bold 48px/70px "Noto Sans TC";
+      }
+    }
+    p {
+      font: normal normal normal 16px/24px "Noto Sans TC";
+    }
+  }
+  &-plan {
+    margin-top: 450px;
+    @media (min-width: 992px) {
+      margin-top: 280px;
+    }
+    &-btn {
+      margin-right: 6px;
+      font-size: 16px;
+      white-space: nowrap;
+      @media (min-width: 992px) {
+        margin-right: 16px;
+        font-size: 18px;
+      }
+      &:hover {
+        color: white;
+        opacity: 0.8;
+      }
+      &:active {
+        background-color: #56c4c5;
+        color: white;
+      }
+      &-active {
+        background-color: #56c4c5;
+        color: white;
+      }
+    }
+    &-title {
+      font: normal normal bold 24px/35px "Noto Sans TC";
+    }
+    &-text {
+      margin: 0;
+      padding-top: 16px;
+      padding-bottom: 32px;
+      font: normal normal normal 16px/24px "Noto Sans TC";
+    }
+    &-subscribe {
+      font: normal normal normal 12px/17px "Noto Sans TC";
+      padding: 24px 0;
+      border-radius: 12px;
+      &-equal {
+        font: normal normal normal 29px/42px "Noto Sans TC";
+      }
+      &-num {
+        // color: #56c4c5;
+        p {
+          margin: 0;
+          font: normal normal normal 32px/35px "Comfortaa";
+        }
+        span {
+          font: normal normal bold 12px/17px "Noto Sans TC";
+        }
+      }
+    }
+    &-list {
+      margin: 32px 0;
+      li {
+        margin-top: 16px;
+        list-style-image: url("/assets/images/icon_check.svg");
+      }
+    }
+  }
+  &-qa {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    &-title {
+      font: normal normal bold 32px/46px "Noto Sans TC";
+    }
+    .accordion {
+      margin-top: 48px;
+      &-item {
+        margin-top: 16px;
+      }
+      &-button::after {
+        background-position: center center;
+      }
+    }
+  }
+}

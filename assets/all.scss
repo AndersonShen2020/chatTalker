@@ -1,0 +1,24 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./stylesheet/helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "./stylesheet/components/swiper";
+@import "./stylesheet/components/go-top";
+@import "./stylesheet/components/btn-talk";
+
+@import "./stylesheet/layout/index";
+@import "./stylesheet/layout/price";
+
+* {
+  font-family: "Noto Sans TC";
+}
+
+body {
+  margin: 0 auto;
+  @media (min-width: 576px) {
+    min-width: 576px;
+  }
+  @media (min-width: 992px) {
+    mix-width: 1088px;
+  }
+}

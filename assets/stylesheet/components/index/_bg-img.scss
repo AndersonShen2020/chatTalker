@@ -1,0 +1,70 @@
+.bg-img {
+  .bg-yellow {
+    background-image: url("./images/bg_home_sm.svg");
+    top: 435px;
+    right: 41px;
+    z-index: -1;
+    width: 347px;
+    height: 255px;
+    background-repeat: no-repeat;
+    @media (min-width: 992px) {
+      background-image: url("./images/bg_home.svg");
+      width: 850px;
+      height: 770px;
+      top: 0;
+      right: 0;
+    }
+  }
+  .bg-Ellipse-1 {
+    background-image: url("./images/ball01.svg");
+    z-index: -1;
+    background-size: 126px;
+    width: 126px;
+    height: 126px;
+    top: 1043px;
+    left: -77px;
+    background-repeat: no-repeat;
+    @media (min-width: 992px) {
+      background-size: 360px;
+      width: 360px;
+      height: 360px;
+      top: 589px;
+      left: -222px;
+    }
+  }
+
+  .bg-Ellipse-2 {
+    background-image: url("./images/ball02.svg");
+    background-repeat: no-repeat;
+    background-position: 30px;
+    background-size: 135px;
+    z-index: -1;
+    width: 135px;
+    height: 135px;
+    top: 3931px;
+    right: 0;
+    @media (min-width: 992px) {
+      background-size: 317px;
+      width: 317px;
+      height: 317px;
+      top: 1694px;
+      right: 0;
+    }
+  }
+
+  .bg-Ellipse-3 {
+    background-image: url("./images/ball03.svg");
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: 5727px;
+    left: -76px;
+    width: 153px;
+    height: 153px;
+    @media (min-width: 992px) {
+      top: 2640px;
+      left: 50px;
+      width: 153px;
+      height: 153px;
+    }
+  }
+}
